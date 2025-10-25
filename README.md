@@ -9,6 +9,8 @@ A Python plugin that adds Discord Rich Presence support to Krita
     2. Paste `%UserProfile%\AppData\Roaming\krita\pykrita` in this window, then press enter.
   * Linux:
     1. Navigate to ``~/.local/share/krita/pykrita``
+  * Mac:
+    1. Navigate to ``~/Library/Application Support/krita/pykrita``
 3. Open file you just downloaded (you may need 7z or WinRAR if you can't open archive)
 4. Open folder ``Krita-DRP-master``
 5. Extract folder ``discord_rpc`` and file ``discord_rpc.desktop`` into the "pykrita" folder.
