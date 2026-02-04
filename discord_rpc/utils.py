@@ -30,7 +30,7 @@ def get_ipc_path(pipe=None):
 
     if sys.platform in ('linux', 'darwin'):
         tempdir = (os.environ.get('XDG_RUNTIME_DIR') or tempfile.gettempdir())
-        paths = ['.', 'snap.discord', 'app/com.discordapp.Discord']
+        paths = ['.', 'snap.discord', 'app/com.discordapp.Discord', 'run/user/1000/.flatpak/com.discordapp.Discord/xdg-run/discord-ipc-0']
     elif sys.platform == 'win32':
         tempdir = r'\\?\pipe'
         paths = ['.']
